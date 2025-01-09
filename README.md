@@ -110,9 +110,9 @@ From the figure above, we can see that,
 
 The factors that were most important to predict the survival chances of passengers are ranked above using different approaches. 
 
-Left: Feature Importances By Random Forest Model
-Middle: Feature Importances By Gradient Boosting Model
-Right: Feature Importances By SelectKBest
+1. Left: Feature Importances By Random Forest Model
+2. Middle: Feature Importances By Gradient Boosting Model
+3. Right: Feature Importances By SelectKBest
 
 **Observation:** All three figures suggest that a person's gender, age and the fare they paid were the most crucial factors in determining their chances of surviving the Titanic disaster.
 
