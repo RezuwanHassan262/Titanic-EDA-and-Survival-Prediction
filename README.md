@@ -106,7 +106,7 @@ From the figure above, we can see that,
 
 ## Feature Importance
 
-![Feature Importance](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/11.png)
+![Feature Importance](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/11.jpg)
 
 The factors that were most important to predict the survival chances of passengers are ranked above using different approaches. 
 
