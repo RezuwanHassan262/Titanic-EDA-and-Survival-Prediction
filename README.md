@@ -30,7 +30,7 @@ This repository seeks to offer a detailed examination of the key variables invol
 
 **Feature Engineering:** Developing new features or modifying existing ones to represent the patterns within the data better.  
 
-**Statistical Analysis:** Pinpointing key factors that have a significant impact on survival outcomes.  
+**Statistical Analysis:** Pinpointing and ranking key factors that have a significant impact on survival outcomes.  
 
 **Survival Prediction:** Applying various machine learning models to estimate a passenger's likelihood of survival based on these factors.  
 
