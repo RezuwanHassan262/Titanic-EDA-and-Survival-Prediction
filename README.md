@@ -1,7 +1,7 @@
 # Practice work: Titanic Exploratory Data Analysis and Survival Prediction
 This project aims to investigate the factors (Age, Class, Gender, etc)that contributed to survival in the tragic sinking of the Titanic and predict the survival chances of passengers based on some provided features.
 
-This was the dataset [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data?select=train.csv).
+This was the dataset: [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data?select=train.csv).
 
 The Titanic's sinking remains one of history's most infamous maritime tragedies. This project explores the Titanic dataset to identify patterns and factors influencing passengers' survival chances and tries to predict a passenger's survival chance based on those factors using different machine learning models.
 
