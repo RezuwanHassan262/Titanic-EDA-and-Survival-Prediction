@@ -1,42 +1,42 @@
-# Titanic-EDA-and-Survival-Prediction
+# Practice work: Titanic Exploratory Data Analysis and Survival Prediction
 This project aims to investigate the factors (Age, Class, Gender, etc)that contributed to survival in the tragic sinking of the Titanic and predict the survival chances of passengers based on some provided features.
 
+This was the dataset [Titanic - Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data?select=train.csv).
 
-In this practice project, I did some data analysis on the best CS scientists from all over the world & visualized them on Tableau 
-
-
-# Practice work: Demographics of Best CS Scientists Worldwide Data Analysis
-In this practice project, I did some data analysis on the best CS scientists from all over the world & visualized them on Tableau 
-
-This was the [dataset](https://github.com/RezuwanHassan262/Tableau-Practice-work-Demographics-of-Best-CS-Scientists-Worldwide/blob/main/best_cs_scientist_details.csv).
-
-This project aimed to practice & learn to use Tableau. I tried to get some insights into the data like,
-
-1. Average publications of all the countries and which country is in the leading position out of all the countries.
-2. European countries with the number of scientists on a map (exclude Russia)
-3. Which Middle Eastern universities are good at research?
-4. Which column or feature is directly correlated with the World Rank column
-
-Tried to visualize all these in the popular data visualization tool, Tableau.
+The Titanic's sinking remains one of history's most infamous maritime tragedies. This project explores the Titanic dataset to identify patterns and factors influencing passengers' survival chances and tries to predict a passenger's survival chance based on those factors using different machine learning models.
 
 
-Here's the link to the Tableau Dashboard for the scraped data: Earthquake Data Tableau Dashboard [4 Sheets & 1 Dashboard](https://public.tableau.com/app/profile/md.reuzwan.hassan/viz/PracticeworkDemographicsofBestCSScientistsWorldwide/DemographicsofBestCSScientistsWorldwide)
+This repository seeks to offer a detailed examination of the key variables involved. The features present in the dataset are,
+
+1. PassengerId
+2. Survived (target variable)
+3. Pclass (passenger class)
+4. Name
+5. Sex
+6. Age
+7. SibSp (number of siblings/spouses aboard)
+8. Parch (number of parents/children aboard)
+9. Ticket
+10. Fare
+11. Cabin
+12. Embarked (port of embarkation)
 
 
-## CSV File (Data Example):
+## Analysis and Workflow
 
-CSV file link: [File](https://github.com/RezuwanHassan262/Last-100-plus-years-Earthquake-Data-Analysis/blob/main/EarthquakeData.csv)
+**Data Cleaning:** Addressing missing values, fixing data types, and preparing the dataset for further analysis.  
 
-| World Rank    | National Rank  | Name              |  Affiliation  | Country	   | H-Index  | Citations | #DBLP  |
-| ------------- |:--------------:|:------------------|:-----------:|:------------:|:-------------:|:-------------:|:----------:|	
-| 1             | 1	             | Anil K. Jain      | Michigan State University	 | United States     | 201          |	247416	      | 867   |
-| 2             | 1	             | Yoshua Bengio     | University of Montreal	   | Canada          | 197          |	637950         | 715           |
-| 3             | 2              | Jiawei Han        | University of Illinois at Urbana-Champaign	       | United States        | 184	        | 205519	        | 993	|
-| 4	            | 1	             | Andrew Zisserman  | University of Oxford	     | United Kingdom        | 175	      | 301948	      |596	|
-| 5             | 3	             | Michael I. Jordan | University of California	 | United Kingdom        | 164          | 201905          | 612|
-| 6             | 5	             | Thomas S. Huang   | University of Illinois at Urbana-Champaign         | United States         | 163          | 118676          | 1068 |
+**Exploratory Data Analysis:** Using descriptive statistics and visualizations to examine variable distributions and uncover relationships.  
 
-## Findings and Observations from the Dashboard
+**Feature Engineering:** Developing new features or modifying existing ones to represent the patterns within the data better.  
+
+**Statistical Analysis:** Pinpointing key factors that have a significant impact on survival outcomes.  
+
+**Survival Prediction:** Applying various machine learning models to estimate a passenger's likelihood of survival based on these factors.  
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+## Findings and Observations from the Data
 
 ![A barchart of countries with average publications](https://raw.githubusercontent.com/RezuwanHassan262/Tableau-Practice-work-Demographics-of-Best-CS-Scientists-Worldwide/main/A%20barchart%20of%20countries%20with%20average%20publications.png)
 
