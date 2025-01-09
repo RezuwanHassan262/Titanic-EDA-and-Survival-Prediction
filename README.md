@@ -40,25 +40,69 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 ![Survival based on Sex](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/1.png)
 
-Titanic-EDA-and-Survival-Prediction/blob/main/figures/1.png
 
-
+From the figure above, we can see that,
 1. The age distribution of passengers varies across different combinations of sex and survival. For both males and females, the age distribution suggests that younger passengers were more likely to survive.
-2. The lowest average number of publications belongs to the Czech Republic, Which is 191.0
+2. There might be noticeable differences in the age distributions between males and females within each survival category.
+
+![Survival based on Class and Age](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/2.png)
 
 
-![European countries with the number of scientists in a map (Russia Excluded)](https://raw.githubusercontent.com/RezuwanHassan262/Tableau-Practice-work-Demographics-of-Best-CS-Scientists-Worldwide/main/European%20countries%20with%20the%20number%20of%20scientists%20in%20a%20map%20(Russia%20Excluded).png)
-
-3. The highest number of scientists from the Europe continent is from the United Kingdom, Which is 57
-4. The highest number of scientists from the Europe continent is from Iceland, and Estonia, Which is 1
-
-
-![Finding out which Middle Eastern universities are good at research.png](https://raw.githubusercontent.com/RezuwanHassan262/Tableau-Practice-work-Demographics-of-Best-CS-Scientists-Worldwide/main/Finding%20out%20which%20Middle%20Eastern%20universities%20are%20good%20at%20research.png)
-
-5. The best university from Middle East countries is King Abdullah University of Science and Technology (KAUST) from Saudi Arabia, having 74485 citations.
+From the figure above, we can see that,
+1. Younger passengers in Pclass 3 have a higher density among those who didn't survive.
+2. Older passengers are more prevalent in Pclass 1, and a larger proportion of them survived compared to the other classes.
 
 
-![Correlations of column that are directly correlated with World Rank column](https://raw.githubusercontent.com/RezuwanHassan262/Tableau-Practice-work-Demographics-of-Best-CS-Scientists-Worldwide/main/Correlations%20of%20column%20that%20are%20directly%20correlated%20with%20World%20Rank%20column.png)
+![Survival based on Class and Fare](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/3.png)
 
-6. There are 3 three features/columns that are directly correlated with the World Rank of the universities. Those are, H-Index, CItations & Number of Publications.
-7. As world rank increases, The H-Index decreases.
+
+From the figure above, we can see that,
+1. Scatterplot indicates that the survival rates vary significantly with both age and class.
+2. Passengers who paid higher fares(Pclass=1) have a better survival rate. indicated by more yellow points (survived) at higher fares.
+3. Age distribution is not strongly correlated with survival as fare.
+
+
+![Survival based on Gender, Age and Fare](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/4.png)
+
+
+From the figure above, we can see that,
+1. Younger passengers, especially females, show better survival outcomes.
+2. Among males, survival appears less dependent on age compared to females.
+3. Most males who survived are concentrated in the lower fare range.
+
+
+![Survival of passengers genderwise for each class](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/5.png)
+
+From the figure above, we can see that,
+1. Passenger class and gender heavily influenced survival. (Females in higher classes had the best chances of survival, while males in third class fared the worst.)
+
+![Age distribution of passengers based on Sex and class](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/6.png)
+
+From the figure above, we can see that,
+1. First-class passengers are generally older, while third-class passengers tend to be younger.
+2. Female passengers often show a different age distribution compared to males, especially in third class.
+3. The port of embarkation appears to influence the distribution of ages, suggesting potential socioeconomic or regional patterns.
+
+
+![Embarkment point of passengers based on classes](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/7.png)
+
+From the figure above, we can see that,
+1. 1st class median line is coming around fare $80 for embarked value 'C'.
+
+![Age distribution of passengers based on Sex and class](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/8.png)
+
+From the figure above, we can see that,
+1. Some decks (B/C) have a higher number of survivors.
+2. Equal number of survivors from deck G.
+
+![Age distribution and assigned deck of the passengers based class](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/9.png)
+
+From the figure above, we can see that,
+1. Deck A has higher proportion of older passengers in Pclass 1 compared to Pclass 3
+2. 
+
+![Family Size vs. Survival (Train split)](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/10.png)
+
+From the figure above, we can see that,
+1. The singletons survived and died the most.
+2. The greater the family size the less likely they are to survive.
