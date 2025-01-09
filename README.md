@@ -38,9 +38,12 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 ## Findings and Observations from the Data
 
-![A barchart of countries with average publications](https://raw.githubusercontent.com/RezuwanHassan262/Tableau-Practice-work-Demographics-of-Best-CS-Scientists-Worldwide/main/A%20barchart%20of%20countries%20with%20average%20publications.png)
+![Survival based on Sex](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/1.png)
 
-1. The highest average number of publications belongs to Brazil, Which is 831.0
+Titanic-EDA-and-Survival-Prediction/blob/main/figures/1.png
+
+
+1. The age distribution of passengers varies across different combinations of sex and survival. For both males and females, the age distribution suggests that younger passengers were more likely to survive.
 2. The lowest average number of publications belongs to the Czech Republic, Which is 191.0
 
 
