@@ -34,8 +34,6 @@ This repository seeks to offer a detailed examination of the key variables invol
 
 **Survival Prediction:** Applying various machine learning models to estimate a passenger's likelihood of survival based on these factors.  
 
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
 ## Findings and Observations from the Data
 
 ![Survival based on Sex](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/1.png)
@@ -106,3 +104,17 @@ From the figure above, we can see that,
 From the figure above, we can see that,
 1. The singletons survived and died the most.
 2. The greater the family size the less likely they are to survive.
+
+## Predicting Survival using ML algorithms
+
+I tried to predict the survival chances of passengers using different ML algorithms, Those are mentioned below with accuracy and relevant metrics.
+
+|       Algorithm       |   Performance   |          Metric        |
+| --------------------- |:---------------:|:----------------------:|
+|  Linear Regression    |       52.6%     |          Accuracy      | 
+|  Logistic Regression  |       75.6%     |       F1 score (Mean)  | 
+|     Random Forest     |       10.5%     |       F1 score (Mean)  | 
+| Random Forest (Hyperparameter Tuned)    |       20.3%     |       Mean Absolute Error  | 
+|        AdaBoost       |       74.9%     |        F1 score (Mean)  | 
+|   Gradient Boosting   |       88.9%     |        F1 score (Mean)  | 
+| Custom Ensemble Model |       18.1%     |    Mean Absolute Error  |
