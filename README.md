@@ -96,8 +96,7 @@ From the figure above, we can see that,
 ![Age distribution and assigned deck of the passengers based class](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/9.png)
 
 From the figure above, we can see that,
-1. Deck A has higher proportion of older passengers in Pclass 1 compared to Pclass 3
-2. 
+1. Deck A has a higher proportion of older passengers in Pclass 1 compared to Pclass 3
 
 ![Family Size vs. Survival (Train split)](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/10.png)
 
@@ -105,16 +104,28 @@ From the figure above, we can see that,
 1. The singletons survived and died the most.
 2. The greater the family size the less likely they are to survive.
 
+## Feature Importance
+
+![Feature Importance](https://raw.githubusercontent.com/RezuwanHassan262/Titanic-EDA-and-Survival-Prediction/main/figures/11.png)
+
+The factors that were most important to predict the survival chances of passengers are ranked above using different approaches. 
+
+Left: Feature Importances By Random Forest Model
+Middle: Feature Importances By Gradient Boosting Model
+Right: Feature Importances By SelectKBest
+
+**Observation:** All three figures suggest that a person's gender, age and the fare they paid were the most crucial factors in determining their chances of surviving the Titanic disaster.
+
 ## Predicting Survival using ML algorithms
 
 I tried to predict the survival chances of passengers using different ML algorithms, Those are mentioned below with accuracy and relevant metrics.
 
-|       Algorithm       |   Performance   |          Metric        |
-| --------------------- |:---------------:|:----------------------:|
-|  Linear Regression    |       52.6%     |          Accuracy      | 
-|  Logistic Regression  |       75.6%     |       F1 score (Mean)  | 
-|     Random Forest     |       10.5%     |       F1 score (Mean)  | 
-| Random Forest (Hyperparameter Tuned)    |       20.3%     |       Mean Absolute Error  | 
+|       Algorithm       |   Performance   |           Metric        |
+| --------------------- |:---------------:|:-----------------------:|
+|  Linear Regression    |       52.6%     |          Accuracy       | 
+|  Logistic Regression  |       75.6%     |       F1 score (Mean)   | 
+|     Random Forest     |       10.5%     |       F1 score (Mean)   | 
+| Random Forest (Hyperparameter Tuned)    |            20.3%        |       Mean Absolute Error  | 
 |        AdaBoost       |       74.9%     |        F1 score (Mean)  | 
 |   Gradient Boosting   |       88.9%     |        F1 score (Mean)  | 
 | Custom Ensemble Model |       18.1%     |    Mean Absolute Error  |
