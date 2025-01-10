@@ -28,9 +28,9 @@ This repository seeks to offer a detailed examination of the key variables invol
 
 **Exploratory Data Analysis:** Using descriptive statistics and visualizations to examine variable distributions and uncover relationships.  
 
-**Feature Engineering:** Developing new features or modifying existing ones to represent the patterns within the data better.  
+**Feature Engineering** Developing new features or modifying existing ones to represent the patterns within the data better.  
 
-**Statistical Analysis:** Pinpointing and ranking key factors that have a significant impact on survival outcomes.  
+**Statistical Analysis:** Pinpointing and ranking key factors that significantly impact survival outcomes.  
 
 **Survival Prediction:** Applying various machine learning models to estimate a passenger's likelihood of survival based on these factors.  
 
