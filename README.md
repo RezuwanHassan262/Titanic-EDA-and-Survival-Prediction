@@ -122,10 +122,10 @@ I tried to predict the survival chances of passengers using different ML algorit
 
 |       Algorithm       |   Performance   |           Metric        |
 | --------------------- |:---------------:|:-----------------------:|
-|  Linear Regression    |       52.6%     |          Accuracy       | 
-|  Logistic Regression  |       75.6%     |       F1 score (Mean)   | 
-|     Random Forest     |       10.5%     |       F1 score (Mean)   | 
-| Random Forest (Hyperparameter Tuned)    |            20.3%        |       Mean Absolute Error  | 
-|        AdaBoost       |       74.9%     |        F1 score (Mean)  | 
-|   Gradient Boosting   |       88.9%     |        F1 score (Mean)  | 
-| Custom Ensemble Model |       18.1%     |    Mean Absolute Error  |
+|  Linear Regression    |       52.6      |          Accuracy       | 
+|  Logistic Regression  |       75.6      |       F1 score (Mean)   | 
+|     Random Forest     |       10.5      |       F1 score (Mean)   | 
+| Random Forest (Hyperparameter Tuned)    |            20.3         |       Mean Absolute Error  | 
+|        AdaBoost       |       74.9      |        F1 score (Mean)  | 
+|   Gradient Boosting   |       88.9      |        F1 score (Mean)  | 
+| Custom Ensemble Model |       18.1      |    Mean Absolute Error  |
