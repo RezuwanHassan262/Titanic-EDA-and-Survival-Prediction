@@ -56,7 +56,7 @@ From the figure above, we can see that,
 
 From the figure above, we can see that,
 1. Scatterplot indicates that the survival rates vary significantly with both age and class.
-2. Passengers who paid higher fares(Pclass=1) have a better survival rate. indicated by more yellow points (survived) at higher fares.
+2. Passengers who paid higher fares(Pclass=1) have a better survival rate. indicated by more purple points (survived) at higher fares.
 3. Age distribution is not strongly correlated with survival as fare.
 
 
